@@ -1,0 +1,131 @@
+Here is a clean, complete **website-generation prompt** you can paste into **bolt.new**, **Framer AI**, **Vercel v0**, or any AI website builder to generate a **Christian-based magazine website**.
+
+---
+
+# ✅ **FINAL PROMPT — CHRISTIAN MAGAZINE WEBSITE**
+
+**Build a modern, elegant, and inspiring Christian-based magazine website.**
+The website should highlight faith-centered articles, devotionals, interviews, spiritual growth resources, and multimedia Christian content.
+Use calm, uplifting colors (white, gold, navy blue, soft earth tones), and a clean editorial layout.
+
+### **Pages & Sections to Generate**
+
+---
+
+### **1. Home Page**
+
+* Hero banner with **image slider (not full width, half-width)**
+  Text overlay: *“Inspiration for Everyday Christian Living”*
+* Featured Articles section
+* Daily Devotional teaser
+* Trending Topics
+* Scripture of the Day card
+* Newsletter subscription box
+* Footer with links to About, Editorial, Contact, Socials
+
+---
+
+### **2. About Page**
+
+* Mission & Vision
+* Editorial Team profiles
+* Statement of Faith & Core Values
+* What makes the magazine unique (Christian lifestyle, leadership, spirituality, relationships)
+
+---
+
+### **3. Magazine Categories**
+
+Include the following sections:
+
+* Faith & Spiritual Growth
+* Christian Living
+* Marriage & Relationships
+* Youth & Purpose
+* Leadership & Ministry
+* Culture & Society
+* Devotionals
+* Interviews & Testimonies
+
+Each category should have a clean card/grid layout.
+
+---
+
+### **4. Single Article Page**
+
+* Large title banner
+* Author information
+* Reading time estimate
+* Scripture highlight box
+* Social share buttons
+* Comment section (placeholder, no backend needed)
+
+---
+
+### **5. Devotionals Page**
+
+* Daily, Weekly, and Monthly devotionals
+* Search & filter by theme (Hope, Healing, Faith, Prayer, Purpose)
+
+---
+
+### **6. Multimedia Page**
+
+* Christian podcast episodes
+* Video messages
+* Worship playlists
+* Testimony videos
+
+---
+
+### **7. Contact Page**
+
+* Contact form
+* Email & phone
+* Social links
+* “Submit your article” section
+
+---
+
+### **Design Requirements**
+
+* Magazine-style typography
+* Soft Christian imagery (cross silhouettes, nature, light rays, fellowship)
+* Responsive layout
+* Smooth animations
+* Minimalist but elegant UI
+* Clean navigation bar with dropdowns
+* SEO-friendly metadata for Christian content
+
+---
+
+### **Additional Features**
+
+* Search bar
+* Categories dropdown
+* Dark mode (optional)
+* Shareable quotes (highlight Bible verses or sentences in articles)
+
+---
+
+### **Website Title Options**
+
+Choose any that fits:
+
+* **FaithLens Magazine**
+* **The Christian Review**
+* **Inspired Today**
+* **Kingdom Life Magazine**
+* **Grace & Purpose Digest**
+
+---
+
+If you'd like, I can also create:
+
+✅ Logo ideas
+✅ UI design mockups
+✅ Full site copy (mission, articles, devotionals, etc.)
+✅ A React or Next.js version of the website
+✅ Admin dashboard for the magazine
+
+Would you like **the full website content**, **sample articles**, or **a fully coded version**?
