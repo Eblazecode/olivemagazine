@@ -1,0 +1,126 @@
+Great! I’ll update the prompt with **OLIVE MAGAZINE** as the official name.
+
+Below is the **final, polished prompt** you can paste into **bolt.new**, **Framer AI**, **Vercel v0**, or any AI website builder.
+
+---
+
+# ✅ **FINAL PROMPT FOR “OLIVE MAGAZINE” — CHRISTIAN-BASED MAGAZINE WEBSITE**
+
+**Build a modern, elegant, and inspiring Christian magazine website titled *OLIVE MAGAZINE*.**
+The website should feature faith-centered articles, devotionals, Christian lifestyle insights, interviews, testimonies, and multimedia content.
+Use uplifting, serene colors such as **olive green, gold, white, and soft earth tones** with a clean editorial layout.
+
+---
+
+## **1. Home Page**
+
+* Hero banner with **half-width image slider**
+  Text overlay: *“Olive Magazine — Fresh Inspiration for Christian Living”*
+* Featured Articles section
+* Daily Devotional snippet
+* Trending Stories
+* “Scripture of the Day” card
+* Newsletter subscription box
+* Footer with About, Editorial, Contact, Social links
+
+---
+
+## **2. About Page**
+
+* Mission & Vision of Olive Magazine
+* Editorial Team profiles
+* Statement of Faith & Core Values
+* Purpose: *“Spreading light, wisdom, and Christian truth for every generation.”*
+
+---
+
+## **3. Categories (Magazine Sections)**
+
+Create a clean grid of the following:
+
+* Faith & Spiritual Growth
+* Christian Living
+* Marriage & Relationships
+* Youth & Purpose
+* Leadership & Ministry
+* Culture & Society
+* Devotionals
+* Interviews & Testimonies
+
+---
+
+## **4. Article Page Layout**
+
+* Large title banner
+* Author name + image
+* Reading time estimate
+* Pull-quote box for Scripture highlights
+* Social share buttons
+* Comments placeholder (no backend)
+
+---
+
+## **5. Devotionals Page**
+
+* Daily, Weekly, and Monthly devotionals
+* Search & filter by themes: *Faith, Hope, Healing, Prayer, Purpose*
+
+---
+
+## **6. Multimedia Page**
+
+* Christian podcast episodes
+* Video messages
+* Worship playlists
+* Testimony videos
+
+---
+
+## **7. Contact Page**
+
+* Contact form
+* Email + Phone
+* Social links
+* “Submit Your Article” form section
+
+---
+
+## **Design Requirements**
+
+* Magazine-style professional typography
+* Subtle Christian imagery (light rays, olive leaves, fellowship scenes)
+* Responsive and clean layout with soft animations
+* SEO-friendly structure and metadata
+* Navigation bar with dropdown categories
+* Optional dark mode
+
+---
+
+## **Extra Features**
+
+* Global search bar
+* Quote generator for shareable Scriptures
+* Newsletter popup (minimal and elegant)
+* Author profile pages
+
+---
+
+## **Website Identity**
+
+**Brand Name:** *OLIVE MAGAZINE*
+**Tagline options:**
+
+* *“Fresh Oil for Daily Living.”*
+* *“Nourishing the Christian Mind.”*
+* *“Where Faith Meets Everyday Life.”*
+
+---
+
+If you want, I can help you with:
+
+✅ Website content (mission, vision, articles, devotionals)
+✅ Logo ideas for Olive Magazine
+✅ UI/UX design concepts
+✅ Full Next.js or React website code
+
+Would you like any of these?

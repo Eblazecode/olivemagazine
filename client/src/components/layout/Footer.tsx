@@ -12,11 +12,11 @@ export function Footer() {
           <div className="md:col-span-1">
             <Link href="/">
               <a className="font-serif text-3xl font-bold tracking-tight mb-6 block">
-                FaithLens<span className="text-accent">.</span>
+                OLIVE<span className="text-accent">.</span>
               </a>
             </Link>
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
-              Inspiration for everyday Christian living. Exploring faith, culture, and purpose through a modern lens.
+              Fresh Inspiration for Christian Living. Spreading light, wisdom, and Christian truth for every generation.
             </p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-accent transition-colors"><Facebook className="h-5 w-5" /></a>
@@ -69,7 +69,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/60">
-          <p>&copy; {new Date().getFullYear()} FaithLens Magazine. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Olive Magazine. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-primary-foreground">Privacy Policy</a>
             <a href="#" className="hover:text-primary-foreground">Terms of Service</a>

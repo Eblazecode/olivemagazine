@@ -39,7 +39,7 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/">
           <a className="font-serif text-3xl font-bold tracking-tight text-primary hover:opacity-80 transition-opacity">
-            FaithLens<span className="text-accent">.</span>
+            OLIVE<span className="text-accent">.</span>
           </a>
         </Link>
 
@@ -97,7 +97,7 @@ export function Navbar() {
               <div className="flex flex-col gap-6 mt-8">
                 <Link href="/">
                   <a className="font-serif text-2xl font-bold" onClick={() => setIsMobileMenuOpen(false)}>
-                    FaithLens
+                    OLIVE
                   </a>
                 </Link>
                 <div className="flex flex-col gap-4">

@@ -9,8 +9,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, BookOpen, Heart, Share2 } from "lucide-react";
 
 // Mock Data
-import hero1 from "@assets/generated_images/mountain_sunrise_landscape.png";
-import hero2 from "@assets/generated_images/group_praying_together.png";
+import hero1 from "@assets/generated_images/olive_grove_landscape.png";
+import hero2 from "@assets/generated_images/open_bible_with_olive_leaf.png";
 import article1 from "@assets/generated_images/open_bible_with_coffee_in_morning_light.png";
 import article2 from "@assets/generated_images/bible_study_group.png";
 import article3 from "@assets/generated_images/worship_concert_silhouette.png";
@@ -19,13 +19,20 @@ const slides = [
   {
     id: "1",
     image: hero1,
+    title: "Olive Magazine — Fresh Inspiration",
+    subtitle: "Nourishing the Christian mind with faith, hope, and love for everyday living.",
+    category: "Welcome"
+  },
+  {
+    id: "2",
+    image: hero2,
     title: "Finding Peace in the Midst of Chaos",
     subtitle: "How to anchor your soul when the world feels overwhelming.",
     category: "Faith & Spiritual Growth"
   },
   {
-    id: "2",
-    image: hero2,
+    id: "3",
+    image: article2,
     title: "The Power of Community Prayer",
     subtitle: "Why we are called to gather and lift each other up.",
     category: "Christian Living"

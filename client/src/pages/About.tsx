@@ -31,12 +31,12 @@ export default function About() {
               </div>
             </div>
             <div className="space-y-6">
-              <h2 className="font-serif text-4xl font-bold text-primary">Faith for Today's Culture</h2>
+              <h2 className="font-serif text-4xl font-bold text-primary">Spreading Light & Wisdom</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                FaithLens began with a simple question: "How do we navigate the complexities of modern life without losing sight of the Gospel?" 
+                Olive Magazine began with a simple question: "How do we navigate the complexities of modern life without losing sight of the Gospel?" 
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                We believe that Christianity isn't just a Sunday event—it's a lens through which we view every aspect of our lives. From our careers and relationships to how we engage with art and culture, our faith informs our perspective.
+                We believe that Christianity isn't just a Sunday event—it's a lens through which we view every aspect of our lives. From our careers and relationships to how we engage with art and culture, our faith informs our perspective. We aim to be "Fresh Oil for Daily Living."
               </p>
               
               <div className="grid grid-cols-2 gap-6 mt-8">
@@ -84,7 +84,7 @@ export default function About() {
         <section className="py-20 container mx-auto px-4 text-center">
            <h2 className="font-serif text-3xl font-bold text-primary mb-6">Join Our Team</h2>
            <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
-             We are always looking for passionate writers, photographers, and creatives to contribute to FaithLens.
+             We are always looking for passionate writers, photographers, and creatives to contribute to Olive Magazine.
            </p>
            <Button className="bg-primary text-primary-foreground px-8 py-6 text-lg">
              <Mail className="mr-2 h-5 w-5" /> Get in Touch

@@ -9,7 +9,7 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
   
-  /* Color Palette: Navy, Gold, White, Earth Tones */
+  /* Color Palette: Olive Green, Gold, White, Earth Tones */
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
   
@@ -60,102 +60,107 @@
 }
 
 :root {
-  /* Elegant, Light Theme */
-  --background: 40 20% 98%; /* Soft off-white */
-  --foreground: 220 10% 20%; /* Dark charcoal/navy tint */
+  /* Olive Magazine Theme - Light Mode */
+  /* Background: Soft Cream / Warm White */
+  --background: 40 20% 98%; 
+  --foreground: 85 20% 15%; /* Dark Olive-Charcoal */
 
   --card: 0 0% 100%;
-  --card-foreground: 220 10% 20%;
+  --card-foreground: 85 20% 15%;
 
   --popover: 0 0% 100%;
-  --popover-foreground: 220 10% 20%;
+  --popover-foreground: 85 20% 15%;
 
-  /* Navy Blue Primary */
-  --primary: 222 47% 20%; 
+  /* Primary: Deep Olive Green */
+  --primary: 85 35% 28%; 
   --primary-foreground: 40 20% 98%;
 
-  /* Soft Earth Tone / Beige Secondary */
-  --secondary: 40 20% 92%;
-  --secondary-foreground: 222 47% 20%;
+  /* Secondary: Soft Earth/Sage */
+  --secondary: 85 20% 92%;
+  --secondary-foreground: 85 35% 28%;
 
-  --muted: 220 10% 94%;
-  --muted-foreground: 220 10% 40%;
+  --muted: 40 10% 94%;
+  --muted-foreground: 85 10% 40%;
 
-  /* Gold Accent */
-  --accent: 43 60% 55%;
+  /* Accent: Muted Gold */
+  --accent: 45 60% 50%;
   --accent-foreground: 0 0% 100%;
 
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 210 40% 98%;
 
-  --border: 220 10% 90%;
-  --input: 220 10% 90%;
-  --ring: 222 47% 20%;
+  --border: 85 10% 85%;
+  --input: 85 10% 85%;
+  --ring: 85 35% 28%;
 
   --radius: 0.5rem;
   
-  /* Chart colors can remain or be tweaked */
-  --chart-1: 222 47% 20%;
-  --chart-2: 43 60% 55%;
-  --chart-3: 197 37% 24%;
-  --chart-4: 43 74% 66%;
-  --chart-5: 27 87% 67%;
+  /* Chart colors adapted to earth tones */
+  --chart-1: 85 35% 28%;
+  --chart-2: 45 60% 50%;
+  --chart-3: 25 40% 40%;
+  --chart-4: 85 20% 60%;
+  --chart-5: 45 30% 70%;
   
   /* Sidebar */
-  --sidebar: 0 0% 98%;
-  --sidebar-foreground: 240 5.3% 26.1%;
-  --sidebar-primary: 240 5.9% 10%;
+  --sidebar: 40 20% 97%;
+  --sidebar-foreground: 85 20% 20%;
+  --sidebar-primary: 85 35% 28%;
   --sidebar-primary-foreground: 0 0% 98%;
-  --sidebar-accent: 240 4.8% 95.9%;
-  --sidebar-accent-foreground: 240 5.9% 10%;
-  --sidebar-border: 220 13% 91%;
-  --sidebar-ring: 217.2 91.2% 59.8%;
+  --sidebar-accent: 85 20% 90%;
+  --sidebar-accent-foreground: 85 35% 28%;
+  --sidebar-border: 85 10% 88%;
+  --sidebar-ring: 85 35% 28%;
 }
 
 .dark {
-  /* Elegant Dark Theme - Deep Navy/Charcoal */
-  --background: 222 47% 10%;
+  /* Olive Magazine Theme - Dark Mode */
+  /* Background: Deep Forest/Dark Olive */
+  --background: 85 30% 10%;
   --foreground: 40 20% 95%;
 
-  --card: 222 47% 13%;
+  --card: 85 25% 14%;
   --card-foreground: 40 20% 95%;
 
-  --popover: 222 47% 13%;
+  --popover: 85 25% 14%;
   --popover-foreground: 40 20% 95%;
 
-  --primary: 43 60% 55%; /* Gold becomes primary in dark mode for contrast */
-  --primary-foreground: 222 47% 10%;
+  /* Primary: Lighter Olive / Sage for contrast */
+  --primary: 85 30% 45%; 
+  --primary-foreground: 0 0% 100%;
 
-  --secondary: 222 47% 16%;
+  /* Secondary: Darker Earth Tone */
+  --secondary: 85 20% 20%;
   --secondary-foreground: 40 20% 95%;
 
-  --muted: 222 47% 16%;
-  --muted-foreground: 220 10% 70%;
+  --muted: 85 20% 20%;
+  --muted-foreground: 85 10% 70%;
 
-  --accent: 222 47% 20%;
-  --accent-foreground: 40 20% 95%;
+  /* Accent: Bright Gold */
+  --accent: 45 60% 50%;
+  --accent-foreground: 0 0% 100%;
 
   --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 210 40% 98%;
 
-  --border: 222 47% 20%;
-  --input: 222 47% 20%;
-  --ring: 43 60% 55%;
+  --border: 85 20% 20%;
+  --input: 85 20% 20%;
+  --ring: 45 60% 50%;
 
-  --chart-1: 43 60% 55%;
-  --chart-2: 220 70% 50%;
-  --chart-3: 30 80% 55%;
+  --chart-1: 45 60% 50%;
+  --chart-2: 85 40% 50%;
+  --chart-3: 30 50% 55%;
   --chart-4: 280 65% 60%;
   --chart-5: 340 75% 55%;
   
-  --sidebar: 240 5.9% 10%;
-  --sidebar-foreground: 240 4.8% 95.9%;
-  --sidebar-primary: 224.3 76.3% 48%;
+  --sidebar: 85 30% 10%;
+  --sidebar-foreground: 40 20% 95%;
+  --sidebar-primary: 85 30% 45%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 240 3.7% 15.9%;
-  --sidebar-accent-foreground: 240 4.8% 95.9%;
-  --sidebar-border: 240 3.7% 15.9%;
-  --sidebar-ring: 217.2 91.2% 59.8%;
+  --sidebar-accent: 85 20% 20%;
+  --sidebar-accent-foreground: 40 20% 95%;
+  --sidebar-border: 85 20% 20%;
+  --sidebar-ring: 45 60% 50%;
 }
 
 @layer base {

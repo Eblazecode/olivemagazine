@@ -35,8 +35,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-bold text-primary">Email Us</h4>
-                      <p className="text-muted-foreground">hello@faithlens.com</p>
-                      <p className="text-muted-foreground">editorial@faithlens.com</p>
+                      <p className="text-muted-foreground">hello@olivemagazine.com</p>
+                      <p className="text-muted-foreground">editorial@olivemagazine.com</p>
                     </div>
                   </div>
                   
@@ -64,7 +64,7 @@ export default function Contact() {
               </div>
 
               <div className="bg-secondary/30 p-8 rounded-xl border border-secondary">
-                <h3 className="font-serif text-xl font-bold text-primary mb-4">Write for FaithLens</h3>
+                <h3 className="font-serif text-xl font-bold text-primary mb-4">Write for Olive Magazine</h3>
                 <p className="text-muted-foreground mb-6">
                   Do you have a testimony or a word of encouragement? We are always looking for new voices to share with our community.
                 </p>
