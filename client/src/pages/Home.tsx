@@ -9,11 +9,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, BookOpen, Heart, Share2 } from "lucide-react";
 
 // Mock Data
-import hero1 from "@assets/generated_images/olive_grove_landscape.png";
-import hero2 from "@assets/generated_images/open_bible_with_olive_leaf.png";
-import article1 from "@assets/generated_images/open_bible_with_coffee_in_morning_light.png";
-import article2 from "@assets/generated_images/bible_study_group.png";
-import article3 from "@assets/generated_images/worship_concert_silhouette.png";
+import hero1 from "@assets/generated_images/nigerian_landscape_sunrise.png";
+import hero2 from "@assets/generated_images/nigerian_worship_service.png";
+import article1 from "@assets/generated_images/nigerian_woman_reading_bible.png";
+import article2 from "@assets/generated_images/nigerian_community_fellowship.png";
+import article3 from "@assets/generated_images/nigerian_bible_study_group.png";
 
 const slides = [
   {
@@ -26,15 +26,15 @@ const slides = [
   {
     id: "2",
     image: hero2,
-    title: "Finding Peace in the Midst of Chaos",
-    subtitle: "How to anchor your soul when the world feels overwhelming.",
-    category: "Faith & Spiritual Growth"
+    title: "The Heart of Worship in Lagos",
+    subtitle: "How our cultural expression of praise connects us deeper to the Spirit.",
+    category: "Worship & Culture"
   },
   {
     id: "3",
-    image: article2,
-    title: "The Power of Community Prayer",
-    subtitle: "Why we are called to gather and lift each other up.",
+    image: article3,
+    title: "Building Community in a Digital Age",
+    subtitle: "Young adults finding authentic connection through small groups.",
     category: "Christian Living"
   }
 ];
@@ -42,28 +42,28 @@ const slides = [
 const featuredArticles = [
   {
     id: "3",
-    title: "Morning Routines for a Spirit-Filled Day",
-    excerpt: "Start your day with intention and align your heart with God's purpose before the busyness begins.",
-    category: "Christian Living",
-    author: "Sarah Jenkins",
+    title: "Morning Devotion: Seeking His Face",
+    excerpt: "Start your day with intention and align your heart with God's purpose before the Lagos traffic begins.",
+    category: "Spiritual Growth",
+    author: "Chioma Okonkwo",
     date: "Dec 12, 2025",
     imageUrl: article1
   },
   {
     id: "4",
-    title: "Building a Marriage on Solid Rock",
-    excerpt: "Practical wisdom for couples seeking to center their relationship on biblical principles.",
-    category: "Marriage & Family",
-    author: "David & Mary Miller",
+    title: "Faith & Fellowship: Sunday Best",
+    excerpt: "The joy of gathering together and the significance of our Sunday attire in honoring God.",
+    category: "Culture & Society",
+    author: "Tunde Bakare",
     date: "Dec 10, 2025",
     imageUrl: article2
   },
   {
     id: "5",
-    title: "Modern Worship: More Than Just Music",
-    excerpt: "Exploring the heart of worship and how it transforms our daily walk with Christ.",
-    category: "Culture & Society",
-    author: "James Wilson",
+    title: "Study to Show Thyself Approved",
+    excerpt: "Why deep bible study matters now more than ever for the Nigerian youth.",
+    category: "Christian Living",
+    author: "Grace Adebayo",
     date: "Dec 08, 2025",
     imageUrl: article3
   }

@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Share2, MessageCircle, Bookmark, Clock, Calendar } from "lucide-react";
 
 // Mock Data
-import heroImage from "@assets/generated_images/open_bible_with_coffee_in_morning_light.png";
+import heroImage from "@assets/generated_images/nigerian_woman_reading_bible.png";
 
 export default function Article() {
   return (

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Play, Mic, Video, Music } from "lucide-react";
-import heroImage from "@assets/generated_images/worship_concert_silhouette.png";
+import heroImage from "@assets/generated_images/nigerian_worship_service.png";
 
 export default function Multimedia() {
   return (

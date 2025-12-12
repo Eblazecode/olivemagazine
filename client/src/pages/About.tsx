@@ -3,7 +3,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Users, BookOpen, Heart, Mail } from "lucide-react";
-import teamImage from "@assets/generated_images/group_praying_together.png";
+import teamImage from "@assets/generated_images/nigerian_community_fellowship.png";
 
 export default function About() {
   return (
