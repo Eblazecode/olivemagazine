@@ -39,7 +39,7 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/">
           <a className="font-serif text-3xl font-bold tracking-tight text-primary hover:opacity-80 transition-opacity">
-            OLIVE<span className="text-accent">.</span>
+            OLIVE MAGAZINE <span className="text-accent">.</span>
           </a>
         </Link>
 
