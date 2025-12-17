@@ -64,6 +64,18 @@ const featuredArticles = [
     imageUrl: article2,
   },
   {
+    id: "Bwari-area-council-vision",
+    title: "My Vision for Bwari Area Council",
+    excerpt:
+        "The people of BAC should look out for a competent person who has the goodwill " +
+        "of the council at heart, not a political party - AUDI HARUNA SHEKWOLO\n”\n" +
+        "\n.",
+    category: "politics & Society",
+    author: "Rev. Stephen Amoh",
+    date: "Dec 2025",
+    imageUrl: hero2,
+  },
+  {
     id: "redeem-the-time",
     title: "Redeem the Time: Living Purposefully in a Distracted World",
     excerpt:
