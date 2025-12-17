@@ -46,8 +46,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-bold text-primary">Call Us</h4>
-                      <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                      <p className="text-sm text-muted-foreground mt-1">Mon-Fri, 9am - 5pm EST</p>
+                      <p className="text-muted-foreground">+234 806 572 3783</p>
+                      <p className="text-sm text-muted-foreground mt-1">Mon-Fri, 9am - 5pm </p>
                     </div>
                   </div>
 
@@ -57,7 +57,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-bold text-primary">Visit Us</h4>
-                      <p className="text-muted-foreground">123 Faith Avenue, Suite 101<br />Nashville, TN 37203</p>
+                      <p className="text-muted-foreground">1, Quarters Extension <br />Bwari FCT Abuja</p>
                     </div>
                   </div>
                 </div>

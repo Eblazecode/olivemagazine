@@ -7,10 +7,13 @@ import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, BookOpen, Heart, Share2 } from "lucide-react";
+import editorImage from "@assets/generated_images/revsteve.jpg"; // replace later with Rev Amoh photo
+
+
 
 // Mock Data
 import hero1 from "@assets/generated_images/nigerian_landscape_sunrise.png";
-import hero2 from "@assets/generated_images/nigerian_worship_service.png";
+import hero2 from "@assets/generated_images/honourable.jpeg";
 import article1 from "@assets/generated_images/nigerian_woman_reading_bible.png";
 import article2 from "@assets/generated_images/nigerian_community_fellowship.png";
 import article3 from "@assets/generated_images/nigerian_bible_study_group.png";
@@ -26,9 +29,9 @@ const slides = [
   {
     id: "2",
     image: hero2,
-    title: "The Heart of Worship in Lagos",
-    subtitle: "How our cultural expression of praise connects us deeper to the Spirit.",
-    category: "Worship & Culture"
+    title: "MY VISION FOR BWARI AREA COUNCIL -Hon. Audi Haruna Shekwolo" .toUpperCase(),
+    subtitle: "“The people of BAC should look out for a competent person who has the goodwill of the council at heart, not a political party”",
+    category: "Politics & Society"
   },
   {
     id: "3",
@@ -41,33 +44,37 @@ const slides = [
 
 const featuredArticles = [
   {
-    id: "3",
-    title: "Morning Devotion: Seeking His Face",
-    excerpt: "Start your day with intention and align your heart with God's purpose before the Lagos traffic begins.",
-    category: "Spiritual Growth",
-    author: "Chioma Okonkwo",
-    date: "Dec 12, 2025",
-    imageUrl: article1
+    id: "editorial-vision",
+    title: "From the Editor-in-Chief: Why Every Olive Edition Is Special",
+    excerpt:
+        "Since 2017, Olive Magazine has carried a divine mandate to unite the body of Christ, promote godly leadership, and shape society with truth.",
+    category: "Editorial",
+    author: "Rev. Stephen Amoh",
+    date: "Dec 2025",
+    imageUrl: article1,
   },
   {
-    id: "4",
-    title: "Faith & Fellowship: Sunday Best",
-    excerpt: "The joy of gathering together and the significance of our Sunday attire in honoring God.",
-    category: "Culture & Society",
-    author: "Tunde Bakare",
-    date: "Dec 10, 2025",
-    imageUrl: article2
+    id: "what-is-life",
+    title: "What Is Life? A Call to Eternal Perspective",
+    excerpt:
+        "Life is fragile and temporary. The real question is not how long we live, but how well we live for God and eternity.",
+    category: "Faith & Spiritual Growth",
+    author: "Rev. Stephen Amoh",
+    date: "Dec 2025",
+    imageUrl: article2,
   },
   {
-    id: "5",
-    title: "Study to Show Thyself Approved",
-    excerpt: "Why deep bible study matters now more than ever for the Nigerian youth.",
+    id: "redeem-the-time",
+    title: "Redeem the Time: Living Purposefully in a Distracted World",
+    excerpt:
+        "Time is more valuable than money. Once lost, it can never be recovered. Scripture calls us to live focused and intentional lives.",
     category: "Christian Living",
-    author: "Grace Adebayo",
-    date: "Dec 08, 2025",
-    imageUrl: article3
-  }
+    author: "Rev. Stephen Amoh",
+    date: "Dec 2025",
+    imageUrl: article3,
+  },
 ];
+
 
 export default function Home() {
   return (
@@ -123,7 +130,53 @@ export default function Home() {
 
             {/* Sidebar */}
             <div className="lg:col-span-4 space-y-8">
-              
+              {/* ================= EDITOR-IN-CHIEF ================= */}
+              {/* ================= EDITOR-IN-CHIEF ================= */}
+              <Card className="border-none bg-secondary/50 overflow-hidden">
+                <CardContent className="p-6 space-y-6">
+
+                  {/* Header */}
+                  <div className="flex items-center gap-4">
+                    <img
+                        src={editorImage}
+                        alt="Rev. Stephen Amoh"
+                        className="h-16 w-16 rounded-full object-cover ring-2 ring-accent/30"
+                    />
+
+                    <div>
+                      <p className="text-xs uppercase tracking-widest text-accent font-bold">
+                        Editor-in-Chief
+                      </p>
+                      <h3 className="font-serif text-lg font-bold text-primary">
+                        Rev. Stephen Amoh
+                      </h3>
+                    </div>
+                  </div>
+
+                  {/* Bio */}
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Since 2017, Olive Magazine has carried a divine mandate to unite the body of
+                    Christ, promote godly leadership, and speak truth into society.
+                  </p>
+
+                  {/* CTA */}
+                  <Button
+                      variant="outline"
+                      size="sm"
+                      className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground group"
+                      onClick={() => {
+                        // replace with router push if using react-router / next
+                        window.location.href = "/editor-in-chief";
+                      }}
+                  >
+                    Read Full Editorial
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Button>
+                </CardContent>
+              </Card>
+
+
+
               {/* Daily Devotional Teaser */}
               <Card className="bg-secondary/50 border-none">
                 <CardContent className="p-6">
